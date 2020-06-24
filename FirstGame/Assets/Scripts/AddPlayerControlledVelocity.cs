@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class AddPlayerControlledVelocity : MonoBehaviour
 {
+	public Transform cam;
+
 	[SerializeField]
 	Vector3 v3Force;
 	[SerializeField]
